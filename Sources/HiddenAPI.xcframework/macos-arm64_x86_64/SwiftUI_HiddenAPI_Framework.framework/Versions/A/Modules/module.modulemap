@@ -1,0 +1,11 @@
+framework module SwiftUI_HiddenAPI_Framework {
+  umbrella header "SwiftUI_HiddenAPI_Framework.h"
+  export *
+
+  module * { export * }
+}
+
+module SwiftUI_HiddenAPI_Framework.Swift {
+  header "SwiftUI_HiddenAPI_Framework-Swift.h"
+  requires objc
+}

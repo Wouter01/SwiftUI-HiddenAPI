@@ -1,0 +1,59 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-macos12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SwiftUI_HiddenAPI_Framework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Swift
+import SwiftUI
+@_exported import SwiftUI_HiddenAPI_Framework
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum FullScreenToolbarBehavior {
+  case showsWithWindow, showsWithMenuBar, automatic
+  public static func == (a: SwiftUI_HiddenAPI_Framework.FullScreenToolbarBehavior, b: SwiftUI_HiddenAPI_Framework.FullScreenToolbarBehavior) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ListAccessoryVisibility {
+  case always, editing, automatic
+  public static func == (a: SwiftUI_HiddenAPI_Framework.ListAccessoryVisibility, b: SwiftUI_HiddenAPI_Framework.ListAccessoryVisibility) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension SwiftUI.Form {
+  public static func withFooter<C, F>(@SwiftUI.ViewBuilder content: () -> C, @SwiftUI.ViewBuilder footer: () -> F) -> some SwiftUI.View where C : SwiftUI.View, F : SwiftUI.View
+  
+}
+extension SwiftUI.App {
+  public static func openSettings()
+  @available(macOS 13.0, *)
+  public static func openWindow(id: Swift.String)
+  @available(macOS 13.0, *)
+  public static func openWindow<Value>(id: Swift.String, value: Value) where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Hashable
+  @available(macOS 13.0, *)
+  public static func openWindow<Value>(value: Value) where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Hashable
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(macOS 13.0, *)
+  public static func openDocument(at url: Foundation.URL) async throws
+  #endif
+  public static func openURL(_ url: Foundation.URL)
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func openURL(_ url: Foundation.URL) async -> Swift.Bool
+  #endif
+}
+public struct HiddenWindowStyle : SwiftUI.WindowStyle {
+  public typealias _Body = Swift.Never
+}
+extension SwiftUI.WindowStyle where Self == SwiftUI_HiddenAPI_Framework.HiddenWindowStyle {
+  public static var hidden: SwiftUI_HiddenAPI_Framework.HiddenWindowStyle {
+    get
+  }
+}
+extension SwiftUI_HiddenAPI_Framework.FullScreenToolbarBehavior : Swift.Equatable {}
+extension SwiftUI_HiddenAPI_Framework.FullScreenToolbarBehavior : Swift.Hashable {}
+extension SwiftUI_HiddenAPI_Framework.ListAccessoryVisibility : Swift.Equatable {}
+extension SwiftUI_HiddenAPI_Framework.ListAccessoryVisibility : Swift.Hashable {}

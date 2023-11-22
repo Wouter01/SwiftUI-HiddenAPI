@@ -5,19 +5,13 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftUI-HiddenAPI",
+    platforms: [.macOS(.v12)],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "SwiftUI-HiddenAPI",
-            targets: ["SwiftUI-HiddenAPI"]),
+            name: "HiddenAPI",
+            targets: ["HiddenAPI"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "SwiftUI-HiddenAPI"),
-        .testTarget(
-            name: "SwiftUI-HiddenAPITests",
-            dependencies: ["SwiftUI-HiddenAPI"]),
+        .binaryTarget(name: "HiddenAPI", path: "Sources/HiddenAPI.xcframework")
     ]
 )
