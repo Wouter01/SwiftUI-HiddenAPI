@@ -4,14 +4,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftUI-HiddenAPI",
+    name: "SwiftUIHidden",
     platforms: [.macOS(.v12)],
     products: [
         .library(
-            name: "HiddenAPI",
-            targets: ["HiddenAPI"]),
+            name: "SwiftUIHidden",
+            targets: ["SwiftUIHidden"]),
     ],
     targets: [
-        .binaryTarget(name: "HiddenAPI", path: "Sources/HiddenAPI.xcframework")
+        .binaryTarget(name: "SwiftUIHidden", path: "Sources/SwiftUIHidden.xcframework")
     ]
 )

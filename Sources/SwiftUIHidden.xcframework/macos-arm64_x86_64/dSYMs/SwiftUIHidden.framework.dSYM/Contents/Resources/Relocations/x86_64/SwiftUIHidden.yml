@@ -1,0 +1,32 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/wouter/Library/Developer/Xcode/DerivedData/SwiftUIHidden-arzpsqxwdagtcfentdfabjpjztjd/Build/Intermediates.noindex/ArchiveIntermediates/SwiftUIHidden/InstallationBuildProductsLocation/Library/Frameworks/SwiftUIHidden.framework/Versions/A/SwiftUIHidden'
+relocations:
+  - { offsetInCU: 0x34, offset: 0xC38B2, size: 0x8, addend: 0x0, symName: _SwiftUIHiddenVersionString, symObjAddr: 0x0, symBinAddr: 0x3530, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0xC38E7, size: 0x8, addend: 0x0, symName: _SwiftUIHiddenVersionNumber, symObjAddr: 0x38, symBinAddr: 0x3568, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0xC3948, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden23ListAccessoryVisibilityO2eeoiySbAC_ACtFZ', symObjAddr: 0x30, symBinAddr: 0x1AC0, symSize: 0x10 }
+  - { offsetInCU: 0x7A, offset: 0xC3977, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden23ListAccessoryVisibilityO4hash4intoys6HasherVz_tF', symObjAddr: 0x40, symBinAddr: 0x1AD0, symSize: 0x20 }
+  - { offsetInCU: 0x10B, offset: 0xC3A08, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden23ListAccessoryVisibilityOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xB0, symBinAddr: 0x1B40, symSize: 0x10 }
+  - { offsetInCU: 0x16B, offset: 0xC3A68, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden23ListAccessoryVisibilityOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x110, symBinAddr: 0x1BA0, symSize: 0x20 }
+  - { offsetInCU: 0x1FC, offset: 0xC3AF9, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden25FullScreenToolbarBehaviorOSHAASQWb', symObjAddr: 0x180, symBinAddr: 0x1C10, symSize: 0x10 }
+  - { offsetInCU: 0x210, offset: 0xC3B0D, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden25FullScreenToolbarBehaviorOACSQAAWl', symObjAddr: 0x190, symBinAddr: 0x1C20, symSize: 0x30 }
+  - { offsetInCU: 0x224, offset: 0xC3B21, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden23ListAccessoryVisibilityOSHAASQWb', symObjAddr: 0x1C0, symBinAddr: 0x1C50, symSize: 0x10 }
+  - { offsetInCU: 0x238, offset: 0xC3B35, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden23ListAccessoryVisibilityOACSQAAWl', symObjAddr: 0x1D0, symBinAddr: 0x1C60, symSize: 0x30 }
+  - { offsetInCU: 0x24C, offset: 0xC3B49, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x200, symBinAddr: 0x1C90, symSize: 0x10 }
+  - { offsetInCU: 0x260, offset: 0xC3B5D, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x210, symBinAddr: 0x1CA0, symSize: 0x10 }
+  - { offsetInCU: 0x274, offset: 0xC3B71, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden25FullScreenToolbarBehaviorOwup', symObjAddr: 0x240, symBinAddr: 0x1CD0, symSize: 0x10 }
+  - { offsetInCU: 0x288, offset: 0xC3B85, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden25FullScreenToolbarBehaviorOMa', symObjAddr: 0x250, symBinAddr: 0x1CE0, symSize: 0x10 }
+  - { offsetInCU: 0x29C, offset: 0xC3B99, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden23ListAccessoryVisibilityOwug', symObjAddr: 0x3D0, symBinAddr: 0x1E60, symSize: 0x10 }
+  - { offsetInCU: 0x2B0, offset: 0xC3BAD, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden23ListAccessoryVisibilityOwup', symObjAddr: 0x3E0, symBinAddr: 0x1E70, symSize: 0x10 }
+  - { offsetInCU: 0x2C4, offset: 0xC3BC1, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden23ListAccessoryVisibilityOwui', symObjAddr: 0x3F0, symBinAddr: 0x1E80, symSize: 0x10 }
+  - { offsetInCU: 0x2D8, offset: 0xC3BD5, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden23ListAccessoryVisibilityOMa', symObjAddr: 0x400, symBinAddr: 0x1E90, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0xC3CC0, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4FormV0A8UIHiddenE10withFooter7content6footerQrqd__yXE_qd_0_yXEtAA4ViewRd__AaHRd_0_r0_lFZ', symObjAddr: 0x0, symBinAddr: 0x1F00, symSize: 0x30 }
+  - { offsetInCU: 0x3F, offset: 0xC3CD8, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4FormV0A8UIHiddenE10withFooter7content6footerQrqd__yXE_qd_0_yXEtAA4ViewRd__AaHRd_0_r0_lFZ', symObjAddr: 0x0, symBinAddr: 0x1F00, symSize: 0x30 }
+  - { offsetInCU: 0x27, offset: 0xC3E23, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden3AppOMa', symObjAddr: 0x0, symBinAddr: 0x1F90, symSize: 0xA }
+  - { offsetInCU: 0x3F, offset: 0xC3E3B, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden3AppOMa', symObjAddr: 0x0, symBinAddr: 0x1F90, symSize: 0xA }
+  - { offsetInCU: 0x27, offset: 0xC3EC7, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden17HiddenWindowStyleV8floatingQrvg', symObjAddr: 0x0, symBinAddr: 0x1FA0, symSize: 0x10 }
+  - { offsetInCU: 0x46, offset: 0xC3EE6, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden17HiddenWindowStyleV8floatingQrvg', symObjAddr: 0x0, symBinAddr: 0x1FA0, symSize: 0x10 }
+  - { offsetInCU: 0x65, offset: 0xC3F05, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI11WindowStyleP0A8UIHiddenAD06HiddencD0VRszrlE6hiddenAFvgZ', symObjAddr: 0x10, symBinAddr: 0x1FB0, symSize: 0x10 }
+  - { offsetInCU: 0x91, offset: 0xC3F31, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden17HiddenWindowStyleV0A2UI0dE0AA5_BodyAdEP_AD4ViewPWT', symObjAddr: 0x20, symBinAddr: 0x1FC0, symSize: 0x10 }
+  - { offsetInCU: 0xA5, offset: 0xC3F45, size: 0x8, addend: 0x0, symName: '_$s13SwiftUIHidden17HiddenWindowStyleVMa', symObjAddr: 0x30, symBinAddr: 0x1FD0, symSize: 0x10 }
+...

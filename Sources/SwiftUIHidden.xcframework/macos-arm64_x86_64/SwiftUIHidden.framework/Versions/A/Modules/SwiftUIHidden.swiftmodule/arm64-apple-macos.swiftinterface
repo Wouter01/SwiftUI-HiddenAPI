@@ -1,0 +1,47 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-macos12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SwiftUIHidden
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Swift
+import SwiftUI
+@_exported import SwiftUIHidden
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum FullScreenToolbarBehavior {
+  case showsWithWindow, showsWithMenuBar, automatic
+  public static func == (a: SwiftUIHidden.FullScreenToolbarBehavior, b: SwiftUIHidden.FullScreenToolbarBehavior) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ListAccessoryVisibility {
+  case always, editing, automatic
+  public static func == (a: SwiftUIHidden.ListAccessoryVisibility, b: SwiftUIHidden.ListAccessoryVisibility) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension SwiftUI.Form {
+  public static func withFooter<C, F>(@SwiftUI.ViewBuilder content: () -> C, @SwiftUI.ViewBuilder footer: () -> F) -> some SwiftUI.View where C : SwiftUI.View, F : SwiftUI.View
+  
+}
+public enum App {
+}
+public struct HiddenWindowStyle : SwiftUI.WindowStyle {
+  public typealias _Body = Swift.Never
+  public var floating: some SwiftUI.WindowStyle {
+    get
+  }
+}
+extension SwiftUI.WindowStyle where Self == SwiftUIHidden.HiddenWindowStyle {
+  public static var hidden: SwiftUIHidden.HiddenWindowStyle {
+    get
+  }
+}
+extension SwiftUIHidden.FullScreenToolbarBehavior : Swift.Equatable {}
+extension SwiftUIHidden.FullScreenToolbarBehavior : Swift.Hashable {}
+extension SwiftUIHidden.ListAccessoryVisibility : Swift.Equatable {}
+extension SwiftUIHidden.ListAccessoryVisibility : Swift.Hashable {}
