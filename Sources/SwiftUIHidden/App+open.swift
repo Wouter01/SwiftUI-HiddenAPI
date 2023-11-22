@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-public enum App {
-    static func openSettings() {
+public enum AppActions {
+    public static func openSettings() {
         if #available(macOS 14.0, *) {
             EnvironmentValues().openSettings()
         } else if #available(macOS 13.0, *) {
@@ -19,30 +19,30 @@ public enum App {
     }
     
     @available(macOS 13.0, *)
-    static func openWindow(id: String) {
+    public static func openWindow(id: String) {
         EnvironmentValues().openWindow(id: id)
     }
     
     @available(macOS 13.0, *)
-    static func openWindow<Value: Codable & Hashable>(id: String, value: Value) {
+    public static func openWindow<Value: Codable & Hashable>(id: String, value: Value) {
         EnvironmentValues().openWindow(id: id, value: value)
     }
     
     @available(macOS 13.0, *)
-    static func openWindow<Value: Codable & Hashable>(value: Value) {
+    public static func openWindow<Value: Codable & Hashable>(value: Value) {
         EnvironmentValues().openWindow(value: value)
     }
     
     @available(macOS 13.0, *)
-    static func openDocument(at url: URL) async throws {
+    public static func openDocument(at url: URL) async throws {
         try await EnvironmentValues().openDocument(at: url)
     }
     
-    static func openURL(_ url: URL) {
+    public static func openURL(_ url: URL) {
         EnvironmentValues().openURL(url)
     }
     
-    static func openURL(_ url: URL) async -> Bool {
+    public static func openURL(_ url: URL) async -> Bool {
         await withCheckedContinuation {
             EnvironmentValues().openURL(url, completion: $0.resume(returning:))
         }

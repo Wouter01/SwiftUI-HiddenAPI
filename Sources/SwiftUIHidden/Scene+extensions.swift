@@ -7,24 +7,24 @@
 
 import SwiftUI
 
-extension Scene {
+public extension Scene {
     var hidden: HiddenSceneModifier<Self> {
         .init(content: self)
     }
 }
 
-struct HiddenSceneModifier<S: Scene> {
+public struct HiddenSceneModifier<S: Scene> {
     let content: S
     
-    func windowBackground(_ shape: some ShapeStyle) -> some Scene {
+    public func windowBackground(_ shape: some ShapeStyle) -> some Scene {
         content.windowBackground(shape)
     }
     
-    func defaultVisibility(_ visibility: Visibility) -> some Scene {
+    public func defaultVisibility(_ visibility: Visibility) -> some Scene {
         content.defaultVisibility(visibility)
     }
     
-    func windowShouldClose(_ perform: @escaping () -> Bool) -> some Scene {
+    public func windowShouldClose(_ perform: @escaping () -> Bool) -> some Scene {
         content.windowShouldClose(perform)
     }
 }

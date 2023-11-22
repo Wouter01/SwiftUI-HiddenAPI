@@ -489,13 +489,764 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "HiddenViewModifier",
+        "printedName": "HiddenViewModifier",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fullScreenToolbarBehavior",
+            "printedName": "fullScreenToolbarBehavior(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenToolbarBehavior",
+                "printedName": "SwiftUIHidden.FullScreenToolbarBehavior",
+                "usr": "s:13SwiftUIHidden25FullScreenToolbarBehaviorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV25fullScreenToolbarBehavioryQrAA04FullghI0OF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV25fullScreenToolbarBehavioryQrAA04FullghI0OF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formInsets",
+            "printedName": "formInsets(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "SwiftUI.Edge.Set",
+                "usr": "s:7SwiftUI4EdgeO3SetV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV10formInsetsyQr0A2UI4EdgeO3SetV_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV10formInsetsyQr0A2UI4EdgeO3SetV_12CoreGraphics7CGFloatVtF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formInsets",
+            "printedName": "formInsets(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "SwiftUI.Edge.Set",
+                "usr": "s:7SwiftUI4EdgeO3SetV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EdgeInsets",
+                "printedName": "SwiftUI.EdgeInsets",
+                "usr": "s:7SwiftUI10EdgeInsetsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV10formInsetsyQr0A2UI4EdgeO3SetV_AE0iG0VtF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV10formInsetsyQr0A2UI4EdgeO3SetV_AE0iG0VtF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onReselect",
+            "printedName": "onReselect(enabled:perform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV10onReselect7enabled7performQrSb_yycSgtF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV10onReselect7enabled7performQrSb_yycSgtF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "variableBlur",
+            "printedName": "variableBlur(maxRadius:mask:opaque:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV12variableBlur9maxRadius4mask6opaqueQr14CoreFoundation7CGFloatV_0A2UI5ImageVSbtF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV12variableBlur9maxRadius4mask6opaqueQr12CoreGraphics7CGFloatV_0A2UI5ImageVSbtF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formBackground",
+            "printedName": "formBackground(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_1_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV14formBackgroundyQrqd__Sg0A2UI10ShapeStyleRd__lF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV14formBackgroundyQrqd__Sg0A2UI10ShapeStyleRd__lF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.ShapeStyle>",
+            "sugared_genericSig": "<Content, S where Content : SwiftUI.View, S : SwiftUI.ShapeStyle>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formRowBackground",
+            "printedName": "formRowBackground(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_1_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV17formRowBackgroundyQrqd__Sg0A2UI10ShapeStyleRd__lF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV17formRowBackgroundyQrqd__Sg0A2UI10ShapeStyleRd__lF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.ShapeStyle>",
+            "sugared_genericSig": "<Content, S where Content : SwiftUI.View, S : SwiftUI.ShapeStyle>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formInfoAction",
+            "printedName": "formInfoAction(action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV14formInfoAction6actionQryyc_tF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV14formInfoAction6actionQryyc_tF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sectionBackground",
+            "printedName": "sectionBackground(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Visibility",
+                "printedName": "SwiftUI.Visibility",
+                "usr": "s:7SwiftUI10VisibilityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV17sectionBackgroundyQr0A2UI10VisibilityOF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV17sectionBackgroundyQr0A2UI10VisibilityOF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formRowInfoVisibility",
+            "printedName": "formRowInfoVisibility(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Visibility",
+                "printedName": "SwiftUI.Visibility",
+                "usr": "s:7SwiftUI10VisibilityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV21formRowInfoVisibilityyQr0A2UI0I0OF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV21formRowInfoVisibilityyQr0A2UI0I0OF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formRowIndentationLevel",
+            "printedName": "formRowIndentationLevel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV23formRowIndentationLevelyQrSiSgF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV23formRowIndentationLevelyQrSiSgF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formAccessory",
+            "printedName": "formAccessory(accessories:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV13formAccessory11accessoriesQrqd__yXE_t0A2UI0D0Rd__lF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV13formAccessory11accessoriesQrqd__yXE_t0A2UI0D0Rd__lF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formRowInsets",
+            "printedName": "formRowInsets(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.EdgeInsets?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EdgeInsets",
+                    "printedName": "SwiftUI.EdgeInsets",
+                    "usr": "s:7SwiftUI10EdgeInsetsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV13formRowInsetsyQr0A2UI04EdgeH0VSgF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV13formRowInsetsyQr0A2UI04EdgeH0VSgF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formAccessoryVisibility",
+            "printedName": "formAccessoryVisibility(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Visibility",
+                "printedName": "SwiftUI.Visibility",
+                "usr": "s:7SwiftUI10VisibilityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV23formAccessoryVisibilityyQr0A2UI0H0OF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV23formAccessoryVisibilityyQr0A2UI0H0OF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listReorderControlVisibility",
+            "printedName": "listReorderControlVisibility(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ListAccessoryVisibility",
+                "printedName": "SwiftUIHidden.ListAccessoryVisibility",
+                "usr": "s:13SwiftUIHidden23ListAccessoryVisibilityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV28listReorderControlVisibilityyQrAA013ListAccessoryI0OF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV28listReorderControlVisibilityyQrAA013ListAccessoryI0OF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bottomBar",
+            "printedName": "bottomBar(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV9bottomBar7contentQrqd__yXE_t0A2UI0D0Rd__lF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV9bottomBar7contentQrqd__yXE_t0A2UI0D0Rd__lF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "accessoryBar",
+            "printedName": "accessoryBar(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV12accessoryBar7contentQrqd__yXE_t0A2UI0D0Rd__lF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV12accessoryBar7contentQrqd__yXE_t0A2UI0D0Rd__lF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SwiftUIHidden18HiddenViewModifierV",
+        "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV",
         "moduleName": "SwiftUIHidden",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
         "declAttributes": [
-          "RawDocComment"
+          "AccessControl"
         ]
       },
       {
@@ -520,11 +1271,359 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "App",
-        "printedName": "App",
+        "name": "HiddenSceneModifier",
+        "printedName": "HiddenSceneModifier",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "windowBackground",
+            "printedName": "windowBackground(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.Scene",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Scene",
+                    "printedName": "SwiftUI.Scene",
+                    "usr": "s:7SwiftUI5SceneP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden19HiddenSceneModifierV16windowBackgroundyQrqd__0A2UI10ShapeStyleRd__lF",
+            "mangledName": "$s13SwiftUIHidden19HiddenSceneModifierV16windowBackgroundyQrqd__0A2UI10ShapeStyleRd__lF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.Scene, τ_1_0 : SwiftUI.ShapeStyle>",
+            "sugared_genericSig": "<S where S : SwiftUI.Scene>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "defaultVisibility",
+            "printedName": "defaultVisibility(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.Scene",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Scene",
+                    "printedName": "SwiftUI.Scene",
+                    "usr": "s:7SwiftUI5SceneP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Visibility",
+                "printedName": "SwiftUI.Visibility",
+                "usr": "s:7SwiftUI10VisibilityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden19HiddenSceneModifierV17defaultVisibilityyQr0A2UI0G0OF",
+            "mangledName": "$s13SwiftUIHidden19HiddenSceneModifierV17defaultVisibilityyQr0A2UI0G0OF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.Scene>",
+            "sugared_genericSig": "<S where S : SwiftUI.Scene>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "windowShouldClose",
+            "printedName": "windowShouldClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.Scene",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Scene",
+                    "printedName": "SwiftUI.Scene",
+                    "usr": "s:7SwiftUI5SceneP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden19HiddenSceneModifierV17windowShouldCloseyQrSbycF",
+            "mangledName": "$s13SwiftUIHidden19HiddenSceneModifierV17windowShouldCloseyQrSbycF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.Scene>",
+            "sugared_genericSig": "<S where S : SwiftUI.Scene>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SwiftUIHidden19HiddenSceneModifierV",
+        "mangledName": "$s13SwiftUIHidden19HiddenSceneModifierV",
+        "moduleName": "SwiftUIHidden",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.Scene>",
+        "sugared_genericSig": "<S where S : SwiftUI.Scene>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SwiftUIHidden",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppActions",
+        "printedName": "AppActions",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "openSettings",
+            "printedName": "openSettings()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden10AppActionsO12openSettingsyyFZ",
+            "mangledName": "$s13SwiftUIHidden10AppActionsO12openSettingsyyFZ",
+            "moduleName": "SwiftUIHidden",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openWindow",
+            "printedName": "openWindow(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden10AppActionsO10openWindow2idySS_tFZ",
+            "mangledName": "$s13SwiftUIHidden10AppActionsO10openWindow2idySS_tFZ",
+            "moduleName": "SwiftUIHidden",
+            "static": true,
+            "intro_Macosx": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openWindow",
+            "printedName": "openWindow(id:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden10AppActionsO10openWindow2id5valueySS_xtSeRzSERzSHRzlFZ",
+            "mangledName": "$s13SwiftUIHidden10AppActionsO10openWindow2id5valueySS_xtSeRzSERzSHRzlFZ",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<Value where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Hashable>",
+            "static": true,
+            "intro_Macosx": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openWindow",
+            "printedName": "openWindow(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden10AppActionsO10openWindow5valueyx_tSeRzSERzSHRzlFZ",
+            "mangledName": "$s13SwiftUIHidden10AppActionsO10openWindow5valueyx_tSeRzSERzSHRzlFZ",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<Value where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Hashable>",
+            "static": true,
+            "intro_Macosx": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openDocument",
+            "printedName": "openDocument(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden10AppActionsO12openDocument2aty10Foundation3URLV_tYaKFZ",
+            "mangledName": "$s13SwiftUIHidden10AppActionsO12openDocument2aty10Foundation3URLV_tYaKFZ",
+            "moduleName": "SwiftUIHidden",
+            "static": true,
+            "intro_Macosx": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openURL",
+            "printedName": "openURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden10AppActionsO7openURLyy10Foundation0F0VFZ",
+            "mangledName": "$s13SwiftUIHidden10AppActionsO7openURLyy10Foundation0F0VFZ",
+            "moduleName": "SwiftUIHidden",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openURL",
+            "printedName": "openURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden10AppActionsO7openURLySb10Foundation0F0VYaFZ",
+            "mangledName": "$s13SwiftUIHidden10AppActionsO7openURLySb10Foundation0F0VYaFZ",
+            "moduleName": "SwiftUIHidden",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
         "declKind": "Enum",
-        "usr": "s:13SwiftUIHidden3AppO",
-        "mangledName": "$s13SwiftUIHidden3AppO",
+        "usr": "s:13SwiftUIHidden10AppActionsO",
+        "mangledName": "$s13SwiftUIHidden10AppActionsO",
         "moduleName": "SwiftUIHidden",
         "declAttributes": [
           "AccessControl"
@@ -627,6 +1726,265 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WithCurrentWindowAction",
+        "printedName": "WithCurrentWindowAction",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "callAsFunction",
+            "printedName": "callAsFunction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppKit.NSWindow?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AppKit.NSWindow?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSWindow",
+                        "printedName": "AppKit.NSWindow",
+                        "usr": "c:objc(cs)NSWindow"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden23WithCurrentWindowActionV14callAsFunctionyyySo8NSWindowCSgXEF",
+            "mangledName": "$s13SwiftUIHidden23WithCurrentWindowActionV14callAsFunctionyyySo8NSWindowCSgXEF",
+            "moduleName": "SwiftUIHidden",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SwiftUIHidden23WithCurrentWindowActionV",
+        "mangledName": "$s13SwiftUIHidden23WithCurrentWindowActionV",
+        "moduleName": "SwiftUIHidden",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HiddenEnvironmentValues",
+        "printedName": "HiddenEnvironmentValues",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "openSettings",
+            "printedName": "openSettings",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SwiftUIHidden23HiddenEnvironmentValuesV12openSettingsyycvp",
+            "mangledName": "$s13SwiftUIHidden23HiddenEnvironmentValuesV12openSettingsyycvp",
+            "moduleName": "SwiftUIHidden",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SwiftUIHidden23HiddenEnvironmentValuesV12openSettingsyycvg",
+                "mangledName": "$s13SwiftUIHidden23HiddenEnvironmentValuesV12openSettingsyycvg",
+                "moduleName": "SwiftUIHidden",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "withCurrentWindow",
+            "printedName": "withCurrentWindow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WithCurrentWindowAction",
+                "printedName": "SwiftUIHidden.WithCurrentWindowAction",
+                "usr": "s:13SwiftUIHidden23WithCurrentWindowActionV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SwiftUIHidden23HiddenEnvironmentValuesV17withCurrentWindowAA04WithgH6ActionVvp",
+            "mangledName": "$s13SwiftUIHidden23HiddenEnvironmentValuesV17withCurrentWindowAA04WithgH6ActionVvp",
+            "moduleName": "SwiftUIHidden",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WithCurrentWindowAction",
+                    "printedName": "SwiftUIHidden.WithCurrentWindowAction",
+                    "usr": "s:13SwiftUIHidden23WithCurrentWindowActionV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SwiftUIHidden23HiddenEnvironmentValuesV17withCurrentWindowAA04WithgH6ActionVvg",
+                "mangledName": "$s13SwiftUIHidden23HiddenEnvironmentValuesV17withCurrentWindowAA04WithgH6ActionVvg",
+                "moduleName": "SwiftUIHidden",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SwiftUIHidden23HiddenEnvironmentValuesV",
+        "mangledName": "$s13SwiftUIHidden23HiddenEnvironmentValuesV",
+        "moduleName": "SwiftUIHidden",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hidden",
+            "printedName": "hidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HiddenViewModifier",
+                "printedName": "SwiftUIHidden.HiddenViewModifier<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:13SwiftUIHidden18HiddenViewModifierV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI4ViewP0A8UIHiddenE6hiddenAD06HiddenC8ModifierVyxGvp",
+            "mangledName": "$s7SwiftUI4ViewP0A8UIHiddenE6hiddenAD06HiddenC8ModifierVyxGvp",
+            "moduleName": "SwiftUIHidden",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HiddenViewModifier",
+                    "printedName": "SwiftUIHidden.HiddenViewModifier<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:13SwiftUIHidden18HiddenViewModifierV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI4ViewP0A8UIHiddenE6hiddenAD06HiddenC8ModifierVyxGvg",
+                "mangledName": "$s7SwiftUI4ViewP0A8UIHiddenE6hiddenAD06HiddenC8ModifierVyxGvg",
+                "moduleName": "SwiftUIHidden",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
       },
       {
         "kind": "TypeDecl",
@@ -774,6 +2132,85 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "Scene",
+        "printedName": "Scene",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hidden",
+            "printedName": "hidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HiddenSceneModifier",
+                "printedName": "SwiftUIHidden.HiddenSceneModifier<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:13SwiftUIHidden19HiddenSceneModifierV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5SceneP0A8UIHiddenE6hiddenAD06HiddenC8ModifierVyxGvp",
+            "mangledName": "$s7SwiftUI5SceneP0A8UIHiddenE6hiddenAD06HiddenC8ModifierVyxGvp",
+            "moduleName": "SwiftUIHidden",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HiddenSceneModifier",
+                    "printedName": "SwiftUIHidden.HiddenSceneModifier<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:13SwiftUIHidden19HiddenSceneModifierV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5SceneP0A8UIHiddenE6hiddenAD06HiddenC8ModifierVyxGvg",
+                "mangledName": "$s7SwiftUI5SceneP0A8UIHiddenE6hiddenAD06HiddenC8ModifierVyxGvg",
+                "moduleName": "SwiftUIHidden",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.Scene>",
+                "sugared_genericSig": "<Self where Self : SwiftUI.Scene>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI5SceneP",
+        "mangledName": "$s7SwiftUI5SceneP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.Scene>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.Scene>",
+        "intro_Macosx": "11.0",
+        "intro_iOS": "14.0",
+        "intro_tvOS": "14.0",
+        "intro_watchOS": "7.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
         "name": "WindowStyle",
         "printedName": "WindowStyle",
         "children": [
@@ -836,6 +2273,83 @@
           "Available"
         ],
         "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EnvironmentValues",
+        "printedName": "EnvironmentValues",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hidden",
+            "printedName": "hidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HiddenEnvironmentValues",
+                "printedName": "SwiftUIHidden.HiddenEnvironmentValues",
+                "usr": "s:13SwiftUIHidden23HiddenEnvironmentValuesV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI17EnvironmentValuesV0A8UIHiddenE6hiddenAD06HiddencD0Vvp",
+            "mangledName": "$s7SwiftUI17EnvironmentValuesV0A8UIHiddenE6hiddenAD06HiddencD0Vvp",
+            "moduleName": "SwiftUIHidden",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HiddenEnvironmentValues",
+                    "printedName": "SwiftUIHidden.HiddenEnvironmentValues",
+                    "usr": "s:13SwiftUIHidden23HiddenEnvironmentValuesV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV0A8UIHiddenE6hiddenAD06HiddencD0Vvg",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV0A8UIHiddenE6hiddenAD06HiddencD0Vvg",
+                "moduleName": "SwiftUIHidden",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI17EnvironmentValuesV",
+        "mangledName": "$s7SwiftUI17EnvironmentValuesV",
+        "moduleName": "SwiftUI",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -844,28 +2358,28 @@
     {
       "filePath": "\/Users\/wouter\/Developer\/SwiftUI-HiddenAPI\/Sources\/SwiftUIHidden\/App+open.swift",
       "kind": "StringLiteral",
-      "offset": 333,
+      "offset": 347,
       "length": 21,
       "value": "\"showSettingsWindow:\""
     },
     {
       "filePath": "\/Users\/wouter\/Developer\/SwiftUI-HiddenAPI\/Sources\/SwiftUIHidden\/App+open.swift",
       "kind": "StringLiteral",
-      "offset": 434,
+      "offset": 448,
       "length": 24,
       "value": "\"showPreferencesWindow:\""
     },
     {
       "filePath": "\/Users\/wouter\/Developer\/SwiftUI-HiddenAPI\/Sources\/SwiftUIHidden\/Environment+extensions.swift",
       "kind": "StringLiteral",
-      "offset": 728,
+      "offset": 756,
       "length": 21,
       "value": "\"showSettingsWindow:\""
     },
     {
       "filePath": "\/Users\/wouter\/Developer\/SwiftUI-HiddenAPI\/Sources\/SwiftUIHidden\/Environment+extensions.swift",
       "kind": "StringLiteral",
-      "offset": 861,
+      "offset": 889,
       "length": 24,
       "value": "\"showPreferencesWindow:\""
     }

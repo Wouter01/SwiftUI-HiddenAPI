@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-extension EnvironmentValues {
+public extension EnvironmentValues {
     var hidden: HiddenEnvironmentValues {
         .init(environment: self)
     }
 }
 
-struct WithCurrentWindowAction {
+public struct WithCurrentWindowAction {
     let action: SwiftUI.WithCurrentWindowAction
     
     public func callAsFunction(_ window: (NSWindow?) -> Void) {
@@ -21,10 +21,10 @@ struct WithCurrentWindowAction {
     }
 }
 
-struct HiddenEnvironmentValues {
+public struct HiddenEnvironmentValues {
     let environment: EnvironmentValues
     
-    var openSettings: () -> Void {
+    public var openSettings: () -> Void {
         if #available(macOS 14.0, *) {
             environment.openSettings.callAsFunction
         } else if #available(macOS 13.0, *) {
@@ -38,7 +38,7 @@ struct HiddenEnvironmentValues {
         }
     }
     
-    var withCurrentWindow: WithCurrentWindowAction {
+    public var withCurrentWindow: WithCurrentWindowAction {
         .init(action: environment.withCurrentWindow)
     }
 }
