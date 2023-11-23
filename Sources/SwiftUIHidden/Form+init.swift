@@ -8,6 +8,7 @@
 import SwiftUI
 
 public extension Form {
+    /// Add a footer to a form.
     static func withFooter<C: View, F: View>(@ViewBuilder content: () -> C, @ViewBuilder footer: () -> F) -> some View {
         Form<FormFooterContent<C, F>>(content: content, footer: footer)
     }

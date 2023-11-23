@@ -24,6 +24,7 @@ public struct WithCurrentWindowAction {
 public struct HiddenEnvironmentValues {
     let environment: EnvironmentValues
     
+    /// Open SwiftUI Settings.
     public var openSettings: () -> Void {
         if #available(macOS 14.0, *) {
             environment.openSettings.callAsFunction
@@ -38,6 +39,7 @@ public struct HiddenEnvironmentValues {
         }
     }
     
+    /// Access the current window.
     public var withCurrentWindow: WithCurrentWindowAction {
         .init(action: environment.withCurrentWindow)
     }
