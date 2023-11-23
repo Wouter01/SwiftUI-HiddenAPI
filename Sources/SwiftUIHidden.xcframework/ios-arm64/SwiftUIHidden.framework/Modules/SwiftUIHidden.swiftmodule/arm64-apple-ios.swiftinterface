@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios17.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SwiftUIHidden
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SwiftUIHidden
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Swift
 import SwiftUI
@@ -87,7 +87,7 @@ public struct HiddenViewModifier<Content> where Content : SwiftUI.View {
   
 }
 extension SwiftUI.Form {
-  @available(macOS 13.0, *)
+  @available(macOS 13.0, iOS 16.0, *)
   @available(iOS, unavailable)
   public static func withFooter<C, F>(@SwiftUI.ViewBuilder content: () -> C, @SwiftUI.ViewBuilder footer: () -> F) -> some SwiftUI.View where C : SwiftUI.View, F : SwiftUI.View
   
@@ -109,11 +109,11 @@ public struct HiddenSceneModifier<S> where S : SwiftUI.Scene {
   
 }
 public enum AppActions {
-  @available(macOS 13.0, *)
+  @available(macOS 13.0, iOS 16.0, *)
   public static func openWindow(id: Swift.String)
-  @available(macOS 13.0, *)
+  @available(macOS 13.0, iOS 16.0, *)
   public static func openWindow<Value>(id: Swift.String, value: Value) where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Hashable
-  @available(macOS 13.0, *)
+  @available(macOS 13.0, iOS 16.0, *)
   public static func openWindow<Value>(value: Value) where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Hashable
   #if compiler(>=5.3) && $AsyncAwait
   @available(macOS 13.0, *)

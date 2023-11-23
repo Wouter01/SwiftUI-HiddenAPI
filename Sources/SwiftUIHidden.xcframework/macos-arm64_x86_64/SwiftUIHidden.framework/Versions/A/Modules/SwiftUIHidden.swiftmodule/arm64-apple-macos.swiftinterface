@@ -87,7 +87,7 @@ public struct HiddenViewModifier<Content> where Content : SwiftUI.View {
   
 }
 extension SwiftUI.Form {
-  @available(macOS 13.0, *)
+  @available(macOS 13.0, iOS 16.0, *)
   @available(iOS, unavailable)
   public static func withFooter<C, F>(@SwiftUI.ViewBuilder content: () -> C, @SwiftUI.ViewBuilder footer: () -> F) -> some SwiftUI.View where C : SwiftUI.View, F : SwiftUI.View
   
@@ -110,11 +110,11 @@ public struct HiddenSceneModifier<S> where S : SwiftUI.Scene {
 }
 public enum AppActions {
   public static func openSettings()
-  @available(macOS 13.0, *)
+  @available(macOS 13.0, iOS 16.0, *)
   public static func openWindow(id: Swift.String)
-  @available(macOS 13.0, *)
+  @available(macOS 13.0, iOS 16.0, *)
   public static func openWindow<Value>(id: Swift.String, value: Value) where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Hashable
-  @available(macOS 13.0, *)
+  @available(macOS 13.0, iOS 16.0, *)
   public static func openWindow<Value>(value: Value) where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Hashable
   #if compiler(>=5.3) && $AsyncAwait
   @available(macOS 13.0, *)

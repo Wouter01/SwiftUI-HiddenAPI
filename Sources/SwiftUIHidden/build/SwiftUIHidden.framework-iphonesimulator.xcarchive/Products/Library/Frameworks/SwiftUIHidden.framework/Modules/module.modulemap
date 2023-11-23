@@ -1,0 +1,11 @@
+framework module SwiftUIHidden {
+  umbrella header "SwiftUIHidden.h"
+  export *
+
+  module * { export * }
+}
+
+module SwiftUIHidden.Swift {
+  header "SwiftUIHidden-Swift.h"
+  requires objc
+}

@@ -22,19 +22,19 @@ public enum AppActions {
     #endif
     
     /// Open a SwiftUI Window.
-    @available(macOS 13.0, *)
+    @available(macOS 13.0, iOS 16.0, *)
     public static func openWindow(id: String) {
         EnvironmentValues().openWindow(id: id)
     }
     
     /// Open a SwiftUI Window.
-    @available(macOS 13.0, *)
+    @available(macOS 13.0, iOS 16.0, *)
     public static func openWindow<Value: Codable & Hashable>(id: String, value: Value) {
         EnvironmentValues().openWindow(id: id, value: value)
     }
     
     /// Open a SwiftUI Window.
-    @available(macOS 13.0, *)
+    @available(macOS 13.0, iOS 16.0, *)
     public static func openWindow<Value: Codable & Hashable>(value: Value) {
         EnvironmentValues().openWindow(value: value)
     }

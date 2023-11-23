@@ -1520,8 +1520,10 @@
             "moduleName": "SwiftUIHidden",
             "static": true,
             "intro_Macosx": "13.0",
+            "intro_iOS": "16.0",
             "declAttributes": [
               "AccessControl",
+              "Available",
               "Available",
               "RawDocComment"
             ],
@@ -1557,8 +1559,10 @@
             "sugared_genericSig": "<Value where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Hashable>",
             "static": true,
             "intro_Macosx": "13.0",
+            "intro_iOS": "16.0",
             "declAttributes": [
               "AccessControl",
+              "Available",
               "Available",
               "RawDocComment"
             ],
@@ -1588,8 +1592,10 @@
             "sugared_genericSig": "<Value where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Hashable>",
             "static": true,
             "intro_Macosx": "13.0",
+            "intro_iOS": "16.0",
             "declAttributes": [
               "AccessControl",
+              "Available",
               "Available",
               "RawDocComment"
             ],
@@ -2140,7 +2146,9 @@
             "sugared_genericSig": "<Content, C, F where Content : SwiftUI.View, C : SwiftUI.View, F : SwiftUI.View>",
             "static": true,
             "intro_Macosx": "13.0",
+            "intro_iOS": "16.0",
             "declAttributes": [
+              "Available",
               "Available",
               "Available",
               "RawDocComment"
