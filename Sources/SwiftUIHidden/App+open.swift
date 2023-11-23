@@ -8,6 +8,7 @@
 import SwiftUI
 
 public enum AppActions {
+    #if os(macOS)
     /// Open SwiftUI Settings.
     public static func openSettings() {
         if #available(macOS 14.0, *) {
@@ -18,6 +19,7 @@ public enum AppActions {
             NSApp.sendAction(Selector(("showPreferencesWindow:")), to: nil, from: nil)
         }
     }
+    #endif
     
     /// Open a SwiftUI Window.
     @available(macOS 13.0, *)
@@ -39,6 +41,7 @@ public enum AppActions {
     
     /// Open a SwiftUI Document.
     @available(macOS 13.0, *)
+    @available(iOS, unavailable)
     public static func openDocument(at url: URL) async throws {
         try await EnvironmentValues().openDocument(at: url)
     }

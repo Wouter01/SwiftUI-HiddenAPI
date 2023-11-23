@@ -48,6 +48,7 @@ public struct HiddenViewModifier<Content: View> {
     
     /// Change the toolbar behavior when the window is fullscreen.
     /// `.showsWithWindow` is the default behavior. `.showsWithMenuBar` will hide the toolbar when fullscreen.
+    @available(iOS, unavailable)
     public func fullScreenToolbarBehavior(_ behavior: FullScreenToolbarBehavior) -> some View {
         content.fullScreenToolbarBehavior(behavior.toOriginal)
     }
@@ -78,6 +79,7 @@ public struct HiddenViewModifier<Content: View> {
     
     /// Set the indentation level of a Form row.
     @available(macOS 13.0, *)
+    @available(iOS, unavailable)
     public func formRowIndentationLevel(_ level: Int?) -> some View {
         content.formRowIndentationLevel(level)
     }
@@ -103,12 +105,14 @@ public struct HiddenViewModifier<Content: View> {
     /// Add a trailing info icon to a Form row.
     /// As an example, see system bluetooth settings.
     @available(macOS 13.0, *)
+    @available(iOS, unavailable)
     public func formInfoAction(action: @escaping () -> Void) -> some View {
         content.formInfoAction(action: action)
     }
     
     /// Change the visibility of the trailing info icon in a Form row.
     @available(macOS 13.0, *)
+    @available(iOS, unavailable)
     public func formRowInfoVisibility(_ visibility: Visibility) -> some View {
         content.formRowInfoVisibility(visibility)
     }
@@ -116,24 +120,28 @@ public struct HiddenViewModifier<Content: View> {
     /// Add a trailing Form row view, which becomes visible when hovered over the row.
     /// As an example, see system wifi settings.
     @available(macOS 13.0, *)
+    @available(iOS, unavailable)
     public func formAccessory(@ViewBuilder accessories: () -> some View) -> some View {
         content.formAccessory(accessories: accessories)
     }
     
     /// Change the visibility of the trailing Form row view.
     @available(macOS 13.0, *)
+    @available(iOS, unavailable)
     public func formAccessoryVisibility(_ visibility: Visibility) -> some View {
         content.formAccessoryVisibility(visibility)
     }
     
-    /// Add a bottom row to a Form.
+    /// Add a bottom row to a Table.
     @available(macOS 13.0, *)
+    @available(iOS, unavailable)
     public func bottomBar(@ViewBuilder content: () -> some View) -> some View {
         self.content.bottomBar(content: content)
     }
     
     /// Add a sticky footer to List or Table. The List or Table needs to be wrapped in a Form with style `grouped`.
     @available(macOS 13.0, *)
+    @available(iOS, unavailable)
     public func accessoryBar(@ViewBuilder content: () -> some View) -> some View {
         self.content.accessoryBar(content: content)
     }

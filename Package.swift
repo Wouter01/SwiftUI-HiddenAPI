@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftUIHidden",
-    platforms: [.macOS(.v12)],
+    platforms: [.macOS(.v12), .iOS(.v15)],
     products: [
         .library(
             name: "SwiftUIHidden",

@@ -1,6 +1,7 @@
 ## SwiftUI-HiddenAPI
 
 This package allows you to use various hidden SwiftUI features.
+Compatible with macOS 12.0+, iOS 15.0+
 
 ### Why is it an xcframework?
 This exposes functions in SwiftUI for the hidden features that are not in the swiftinterface files.

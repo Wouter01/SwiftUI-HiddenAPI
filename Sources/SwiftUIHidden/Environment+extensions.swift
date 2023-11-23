@@ -13,17 +13,21 @@ public extension EnvironmentValues {
     }
 }
 
+@available(iOS, unavailable)
 public struct WithCurrentWindowAction {
     let action: SwiftUI.WithCurrentWindowAction
     
-    public func callAsFunction(_ window: (NSWindow?) -> Void) {
+    #if os(macOS)
+    public func callAsFunction(_ window: (UIWindow?) -> Void) {
         action(window)
     }
+    #endif
 }
 
 public struct HiddenEnvironmentValues {
     let environment: EnvironmentValues
     
+    #if os(macOS)
     /// Open SwiftUI Settings.
     public var openSettings: () -> Void {
         if #available(macOS 14.0, *) {
@@ -38,8 +42,10 @@ public struct HiddenEnvironmentValues {
             }
         }
     }
+    #endif
     
     /// Access the current window.
+    @available(iOS, unavailable)
     public var withCurrentWindow: WithCurrentWindowAction {
         .init(action: environment.withCurrentWindow)
     }

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS, unavailable)
 public struct HiddenWindowStyle: WindowStyle {
     public typealias _Body = Never
     
@@ -15,6 +16,7 @@ public struct HiddenWindowStyle: WindowStyle {
     }
 }
 
+@available(iOS, unavailable)
 public extension WindowStyle where Self == HiddenWindowStyle {
     static var hidden: HiddenWindowStyle {
         .init()
