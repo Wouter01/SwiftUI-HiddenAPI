@@ -16,7 +16,6 @@ public extension View {
 public enum FullScreenToolbarBehavior {
     case showsWithWindow, showsWithMenuBar, automatic
     
-    
     var toOriginal: SwiftUI.FullScreenToolbarBehavior {
         switch self {
         case .showsWithWindow: .showsWithWindow
@@ -60,68 +59,81 @@ public struct HiddenViewModifier<Content: View> {
     }
     
     /// Adjust the padding around a Form with FormStyle `.grouped`
+    @available(macOS 13.0, *)
     public func formInsets(_ edges: Edge.Set, _ value: CGFloat) -> some View {
         content.formInsets(edges, value)
     }
     
     /// Adjust the padding around a Form with FormStyle `.grouped`
+    @available(macOS 13.0, *)
     public func formInsets(_ edges: Edge.Set, _ value: EdgeInsets) -> some View {
         content.formInsets(edges, value)
     }
     
     /// Adjust the inset of an individual row in a Form with FormStyle `.grouped`
+    @available(macOS 13.0, *)
     public func formRowInsets(_ insets: EdgeInsets?) -> some View {
         content.formRowInsets(insets)
     }
     
     /// Set the indentation level of a Form row.
+    @available(macOS 13.0, *)
     public func formRowIndentationLevel(_ level: Int?) -> some View {
         content.formRowIndentationLevel(level)
     }
     
     /// Change the background color of a Form.
+    @available(macOS 13.0, *)
     public func formBackground<S: ShapeStyle>(_ shape: S?) -> some View {
         content.formBackground(shape)
     }
     
     /// Change the background color of an individual row in a Form.
+    @available(macOS 13.0, *)
     public func formRowBackground<S: ShapeStyle>(_ shape: S?) -> some View {
         content.formRowBackground(shape)
     }
     
     /// Change the background color of a section.
+    @available(macOS 13.0, *)
     public func sectionBackground(_ visibility: Visibility) -> some View {
         content.sectionBackground(visibility)
     }
     
     /// Add a trailing info icon to a Form row.
     /// As an example, see system bluetooth settings.
+    @available(macOS 13.0, *)
     public func formInfoAction(action: @escaping () -> Void) -> some View {
         content.formInfoAction(action: action)
     }
     
     /// Change the visibility of the trailing info icon in a Form row.
+    @available(macOS 13.0, *)
     public func formRowInfoVisibility(_ visibility: Visibility) -> some View {
         content.formRowInfoVisibility(visibility)
     }
     
     /// Add a trailing Form row view, which becomes visible when hovered over the row.
     /// As an example, see system wifi settings.
+    @available(macOS 13.0, *)
     public func formAccessory(@ViewBuilder accessories: () -> some View) -> some View {
         content.formAccessory(accessories: accessories)
     }
     
     /// Change the visibility of the trailing Form row view.
+    @available(macOS 13.0, *)
     public func formAccessoryVisibility(_ visibility: Visibility) -> some View {
         content.formAccessoryVisibility(visibility)
     }
     
     /// Add a bottom row to a Form.
+    @available(macOS 13.0, *)
     public func bottomBar(@ViewBuilder content: () -> some View) -> some View {
         self.content.bottomBar(content: content)
     }
     
     /// Add a sticky footer to List or Table. The List or Table needs to be wrapped in a Form with style `grouped`.
+    @available(macOS 13.0, *)
     public func accessoryBar(@ViewBuilder content: () -> some View) -> some View {
         self.content.accessoryBar(content: content)
     }

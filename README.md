@@ -9,6 +9,7 @@ For a more in-depth explanation, see [here](https://github.com/EmergeTools/Snaps
 
 ### Warning
 These features are not exposed by the stable interface and may be removed or changed in OS version updates.
+Note that this package was only tested against macOS 14. Some features may not be available on older versions, but lack `@available` annotations. If you notice any crashes / issues on lower versions, please create an issue.
 
 ### Overview
 All exposed functions are behind the `hidden` variable. This way, when Apple makes them public, no name clashes occur.
