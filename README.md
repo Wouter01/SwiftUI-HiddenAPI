@@ -17,7 +17,7 @@ All exposed functions are behind the `hidden` variable. This way, when Apple mak
 
 
 #### WithCurrentWindow
-Get the current NSWindow / UIWindow from the environment.
+Get the current NSWindow from the environment.
 
 ```swift
 struct WithCurrentWindowTestView: View {
