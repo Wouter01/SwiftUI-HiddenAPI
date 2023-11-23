@@ -495,6 +495,55 @@
         "children": [
           {
             "kind": "Function",
+            "name": "variableBlur",
+            "printedName": "variableBlur(maxRadius:mask:opaque:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV12variableBlur9maxRadius4mask6opaqueQr14CoreFoundation7CGFloatV_0A2UI5ImageVSbtF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV12variableBlur9maxRadius4mask6opaqueQr12CoreGraphics7CGFloatV_0A2UI5ImageVSbtF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "fullScreenToolbarBehavior",
             "printedName": "fullScreenToolbarBehavior(_:)",
             "children": [
@@ -525,91 +574,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Content where Content : SwiftUI.View>",
             "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "formInsets",
-            "printedName": "formInsets(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Set",
-                "printedName": "SwiftUI.Edge.Set",
-                "usr": "s:7SwiftUI4EdgeO3SetV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13SwiftUIHidden18HiddenViewModifierV10formInsetsyQr0A2UI4EdgeO3SetV_14CoreFoundation7CGFloatVtF",
-            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV10formInsetsyQr0A2UI4EdgeO3SetV_12CoreGraphics7CGFloatVtF",
-            "moduleName": "SwiftUIHidden",
-            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
-            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "formInsets",
-            "printedName": "formInsets(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Set",
-                "printedName": "SwiftUI.Edge.Set",
-                "usr": "s:7SwiftUI4EdgeO3SetV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "EdgeInsets",
-                "printedName": "SwiftUI.EdgeInsets",
-                "usr": "s:7SwiftUI10EdgeInsetsV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13SwiftUIHidden18HiddenViewModifierV10formInsetsyQr0A2UI4EdgeO3SetV_AE0iG0VtF",
-            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV10formInsetsyQr0A2UI4EdgeO3SetV_AE0iG0VtF",
-            "moduleName": "SwiftUIHidden",
-            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
-            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
-            "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -670,14 +637,15 @@
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Content where Content : SwiftUI.View>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
-            "name": "variableBlur",
-            "printedName": "variableBlur(maxRadius:mask:opaque:)",
+            "name": "formInsets",
+            "printedName": "formInsets(_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -694,31 +662,168 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "SwiftUI.Edge.Set",
+                "usr": "s:7SwiftUI4EdgeO3SetV"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "CGFloat",
                 "printedName": "CoreGraphics.CGFloat",
                 "usr": "s:14CoreFoundation7CGFloatV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Image",
-                "printedName": "SwiftUI.Image",
-                "usr": "s:7SwiftUI5ImageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13SwiftUIHidden18HiddenViewModifierV12variableBlur9maxRadius4mask6opaqueQr14CoreFoundation7CGFloatV_0A2UI5ImageVSbtF",
-            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV12variableBlur9maxRadius4mask6opaqueQr12CoreGraphics7CGFloatV_0A2UI5ImageVSbtF",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV10formInsetsyQr0A2UI4EdgeO3SetV_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV10formInsetsyQr0A2UI4EdgeO3SetV_12CoreGraphics7CGFloatVtF",
             "moduleName": "SwiftUIHidden",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "intro_Macosx": "13.0",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formInsets",
+            "printedName": "formInsets(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "SwiftUI.Edge.Set",
+                "usr": "s:7SwiftUI4EdgeO3SetV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EdgeInsets",
+                "printedName": "SwiftUI.EdgeInsets",
+                "usr": "s:7SwiftUI10EdgeInsetsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV10formInsetsyQr0A2UI4EdgeO3SetV_AE0iG0VtF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV10formInsetsyQr0A2UI4EdgeO3SetV_AE0iG0VtF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "intro_Macosx": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formRowInsets",
+            "printedName": "formRowInsets(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.EdgeInsets?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EdgeInsets",
+                    "printedName": "SwiftUI.EdgeInsets",
+                    "usr": "s:7SwiftUI10EdgeInsetsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV13formRowInsetsyQr0A2UI04EdgeH0VSgF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV13formRowInsetsyQr0A2UI04EdgeH0VSgF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "intro_Macosx": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formRowIndentationLevel",
+            "printedName": "formRowIndentationLevel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV23formRowIndentationLevelyQrSiSgF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV23formRowIndentationLevelyQrSiSgF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "intro_Macosx": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -760,8 +865,11 @@
             "moduleName": "SwiftUIHidden",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.ShapeStyle>",
             "sugared_genericSig": "<Content, S where Content : SwiftUI.View, S : SwiftUI.ShapeStyle>",
+            "intro_Macosx": "13.0",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -803,8 +911,50 @@
             "moduleName": "SwiftUIHidden",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.ShapeStyle>",
             "sugared_genericSig": "<Content, S where Content : SwiftUI.View, S : SwiftUI.ShapeStyle>",
+            "intro_Macosx": "13.0",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sectionBackground",
+            "printedName": "sectionBackground(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Visibility",
+                "printedName": "SwiftUI.Visibility",
+                "usr": "s:7SwiftUI10VisibilityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV17sectionBackgroundyQr0A2UI10VisibilityOF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV17sectionBackgroundyQr0A2UI10VisibilityOF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "intro_Macosx": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -850,44 +1000,12 @@
             "moduleName": "SwiftUIHidden",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "intro_Macosx": "13.0",
             "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "sectionBackground",
-            "printedName": "sectionBackground(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Visibility",
-                "printedName": "SwiftUI.Visibility",
-                "usr": "s:7SwiftUI10VisibilityO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13SwiftUIHidden18HiddenViewModifierV17sectionBackgroundyQr0A2UI10VisibilityOF",
-            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV17sectionBackgroundyQr0A2UI10VisibilityOF",
-            "moduleName": "SwiftUIHidden",
-            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
-            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
-            "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -922,52 +1040,12 @@
             "moduleName": "SwiftUIHidden",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "intro_Macosx": "13.0",
             "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "formRowIndentationLevel",
-            "printedName": "formRowIndentationLevel(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13SwiftUIHidden18HiddenViewModifierV23formRowIndentationLevelyQrSiSgF",
-            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV23formRowIndentationLevelyQrSiSgF",
-            "moduleName": "SwiftUIHidden",
-            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
-            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
-            "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1016,52 +1094,12 @@
             "moduleName": "SwiftUIHidden",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
             "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "intro_Macosx": "13.0",
             "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "formRowInsets",
-            "printedName": "formRowInsets(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SwiftUI.EdgeInsets?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EdgeInsets",
-                    "printedName": "SwiftUI.EdgeInsets",
-                    "usr": "s:7SwiftUI10EdgeInsetsV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13SwiftUIHidden18HiddenViewModifierV13formRowInsetsyQr0A2UI04EdgeH0VSgF",
-            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV13formRowInsetsyQr0A2UI04EdgeH0VSgF",
-            "moduleName": "SwiftUIHidden",
-            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
-            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
-            "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1096,44 +1134,12 @@
             "moduleName": "SwiftUIHidden",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "intro_Macosx": "13.0",
             "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "listReorderControlVisibility",
-            "printedName": "listReorderControlVisibility(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ListAccessoryVisibility",
-                "printedName": "SwiftUIHidden.ListAccessoryVisibility",
-                "usr": "s:13SwiftUIHidden23ListAccessoryVisibilityO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13SwiftUIHidden18HiddenViewModifierV28listReorderControlVisibilityyQrAA013ListAccessoryI0OF",
-            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV28listReorderControlVisibilityyQrAA013ListAccessoryI0OF",
-            "moduleName": "SwiftUIHidden",
-            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
-            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
-            "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1182,8 +1188,12 @@
             "moduleName": "SwiftUIHidden",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
             "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "intro_Macosx": "13.0",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1231,6 +1241,46 @@
             "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV12accessoryBar7contentQrqd__yXE_t0A2UI0D0Rd__lF",
             "moduleName": "SwiftUIHidden",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "intro_Macosx": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listReorderControlVisibility",
+            "printedName": "listReorderControlVisibility(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ListAccessoryVisibility",
+                "printedName": "SwiftUIHidden.ListAccessoryVisibility",
+                "usr": "s:13SwiftUIHidden23ListAccessoryVisibilityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SwiftUIHidden18HiddenViewModifierV28listReorderControlVisibilityyQrAA013ListAccessoryI0OF",
+            "mangledName": "$s13SwiftUIHidden18HiddenViewModifierV28listReorderControlVisibilityyQrAA013ListAccessoryI0OF",
+            "moduleName": "SwiftUIHidden",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Content where Content : SwiftUI.View>",
             "declAttributes": [
               "AccessControl",
@@ -1305,7 +1355,9 @@
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.Scene, τ_1_0 : SwiftUI.ShapeStyle>",
             "sugared_genericSig": "<S where S : SwiftUI.Scene>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1341,7 +1393,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.Scene>",
             "sugared_genericSig": "<S where S : SwiftUI.Scene>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1389,7 +1443,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.Scene>",
             "sugared_genericSig": "<S where S : SwiftUI.Scene>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -1436,7 +1492,8 @@
             "moduleName": "SwiftUIHidden",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1465,7 +1522,8 @@
             "intro_Macosx": "13.0",
             "declAttributes": [
               "AccessControl",
-              "Available"
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1501,7 +1559,8 @@
             "intro_Macosx": "13.0",
             "declAttributes": [
               "AccessControl",
-              "Available"
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1531,7 +1590,8 @@
             "intro_Macosx": "13.0",
             "declAttributes": [
               "AccessControl",
-              "Available"
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1560,7 +1620,9 @@
             "intro_Macosx": "13.0",
             "declAttributes": [
               "AccessControl",
-              "Available"
+              "Available",
+              "Available",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -1588,7 +1650,8 @@
             "moduleName": "SwiftUIHidden",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1616,7 +1679,8 @@
             "moduleName": "SwiftUIHidden",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -1690,7 +1754,8 @@
         "mangledName": "$s13SwiftUIHidden17HiddenWindowStyleV",
         "moduleName": "SwiftUIHidden",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "Available"
         ],
         "conformances": [
           {
@@ -1787,7 +1852,8 @@
         "mangledName": "$s13SwiftUIHidden23WithCurrentWindowActionV",
         "moduleName": "SwiftUIHidden",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "Available"
         ]
       },
       {
@@ -1823,7 +1889,8 @@
             "mangledName": "$s13SwiftUIHidden23HiddenEnvironmentValuesV12openSettingsyycvp",
             "moduleName": "SwiftUIHidden",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -1874,7 +1941,9 @@
             "mangledName": "$s13SwiftUIHidden23HiddenEnvironmentValuesV17withCurrentWindowAA04WithgH6ActionVvp",
             "moduleName": "SwiftUIHidden",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -2070,6 +2139,12 @@
             "genericSig": "<τ_0_0, τ_1_0, τ_1_1 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View, τ_1_1 : SwiftUI.View>",
             "sugared_genericSig": "<Content, C, F where Content : SwiftUI.View, C : SwiftUI.View, F : SwiftUI.View>",
             "static": true,
+            "intro_Macosx": "13.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -2358,28 +2433,28 @@
     {
       "filePath": "\/Users\/wouter\/Developer\/SwiftUI-HiddenAPI\/Sources\/SwiftUIHidden\/App+open.swift",
       "kind": "StringLiteral",
-      "offset": 347,
+      "offset": 396,
       "length": 21,
       "value": "\"showSettingsWindow:\""
     },
     {
       "filePath": "\/Users\/wouter\/Developer\/SwiftUI-HiddenAPI\/Sources\/SwiftUIHidden\/App+open.swift",
       "kind": "StringLiteral",
-      "offset": 448,
+      "offset": 497,
       "length": 24,
       "value": "\"showPreferencesWindow:\""
     },
     {
       "filePath": "\/Users\/wouter\/Developer\/SwiftUI-HiddenAPI\/Sources\/SwiftUIHidden\/Environment+extensions.swift",
       "kind": "StringLiteral",
-      "offset": 756,
+      "offset": 863,
       "length": 21,
       "value": "\"showSettingsWindow:\""
     },
     {
       "filePath": "\/Users\/wouter\/Developer\/SwiftUI-HiddenAPI\/Sources\/SwiftUIHidden\/Environment+extensions.swift",
       "kind": "StringLiteral",
-      "offset": 889,
+      "offset": 996,
       "length": 24,
       "value": "\"showPreferencesWindow:\""
     }

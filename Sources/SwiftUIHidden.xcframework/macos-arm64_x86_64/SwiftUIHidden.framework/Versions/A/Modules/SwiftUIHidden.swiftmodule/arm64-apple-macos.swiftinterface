@@ -30,42 +30,65 @@ public enum ListAccessoryVisibility {
   }
 }
 public struct HiddenViewModifier<Content> where Content : SwiftUI.View {
+  public func variableBlur(maxRadius: CoreFoundation.CGFloat, mask: SwiftUI.Image, opaque: Swift.Bool) -> some SwiftUI.View
+  
+  @available(iOS, unavailable)
   public func fullScreenToolbarBehavior(_ behavior: SwiftUIHidden.FullScreenToolbarBehavior) -> some SwiftUI.View
-  
-  public func formInsets(_ edges: SwiftUI.Edge.Set, _ value: CoreFoundation.CGFloat) -> some SwiftUI.View
-  
-  public func formInsets(_ edges: SwiftUI.Edge.Set, _ value: SwiftUI.EdgeInsets) -> some SwiftUI.View
   
   public func onReselect(enabled: Swift.Bool, perform: (() -> ())?) -> some SwiftUI.View
   
-  public func variableBlur(maxRadius: CoreFoundation.CGFloat, mask: SwiftUI.Image, opaque: Swift.Bool) -> some SwiftUI.View
+  @available(macOS 13.0, *)
+  public func formInsets(_ edges: SwiftUI.Edge.Set, _ value: CoreFoundation.CGFloat) -> some SwiftUI.View
   
-  public func formBackground<S>(_ shape: S?) -> some SwiftUI.View where S : SwiftUI.ShapeStyle
+  @available(macOS 13.0, *)
+  public func formInsets(_ edges: SwiftUI.Edge.Set, _ value: SwiftUI.EdgeInsets) -> some SwiftUI.View
   
-  public func formRowBackground<S>(_ shape: S?) -> some SwiftUI.View where S : SwiftUI.ShapeStyle
-  
-  public func formInfoAction(action: @escaping () -> Swift.Void) -> some SwiftUI.View
-  
-  public func sectionBackground(_ visibility: SwiftUI.Visibility) -> some SwiftUI.View
-  
-  public func formRowInfoVisibility(_ visibility: SwiftUI.Visibility) -> some SwiftUI.View
-  
-  public func formRowIndentationLevel(_ level: Swift.Int?) -> some SwiftUI.View
-  
-  public func formAccessory(@SwiftUI.ViewBuilder accessories: () -> some View) -> some SwiftUI.View
-  
+  @available(macOS 13.0, *)
   public func formRowInsets(_ insets: SwiftUI.EdgeInsets?) -> some SwiftUI.View
   
+  @available(macOS 13.0, *)
+  @available(iOS, unavailable)
+  public func formRowIndentationLevel(_ level: Swift.Int?) -> some SwiftUI.View
+  
+  @available(macOS 13.0, *)
+  public func formBackground<S>(_ shape: S?) -> some SwiftUI.View where S : SwiftUI.ShapeStyle
+  
+  @available(macOS 13.0, *)
+  public func formRowBackground<S>(_ shape: S?) -> some SwiftUI.View where S : SwiftUI.ShapeStyle
+  
+  @available(macOS 13.0, *)
+  public func sectionBackground(_ visibility: SwiftUI.Visibility) -> some SwiftUI.View
+  
+  @available(macOS 13.0, *)
+  @available(iOS, unavailable)
+  public func formInfoAction(action: @escaping () -> Swift.Void) -> some SwiftUI.View
+  
+  @available(macOS 13.0, *)
+  @available(iOS, unavailable)
+  public func formRowInfoVisibility(_ visibility: SwiftUI.Visibility) -> some SwiftUI.View
+  
+  @available(macOS 13.0, *)
+  @available(iOS, unavailable)
+  public func formAccessory(@SwiftUI.ViewBuilder accessories: () -> some View) -> some SwiftUI.View
+  
+  @available(macOS 13.0, *)
+  @available(iOS, unavailable)
   public func formAccessoryVisibility(_ visibility: SwiftUI.Visibility) -> some SwiftUI.View
+  
+  @available(macOS 13.0, *)
+  @available(iOS, unavailable)
+  public func bottomBar(@SwiftUI.ViewBuilder content: () -> some View) -> some SwiftUI.View
+  
+  @available(macOS 13.0, *)
+  @available(iOS, unavailable)
+  public func accessoryBar(@SwiftUI.ViewBuilder content: () -> some View) -> some SwiftUI.View
   
   public func listReorderControlVisibility(_ visibility: SwiftUIHidden.ListAccessoryVisibility) -> some SwiftUI.View
   
-  public func bottomBar(@SwiftUI.ViewBuilder content: () -> some View) -> some SwiftUI.View
-  
-  public func accessoryBar(@SwiftUI.ViewBuilder content: () -> some View) -> some SwiftUI.View
-  
 }
 extension SwiftUI.Form {
+  @available(macOS 13.0, *)
+  @available(iOS, unavailable)
   public static func withFooter<C, F>(@SwiftUI.ViewBuilder content: () -> C, @SwiftUI.ViewBuilder footer: () -> F) -> some SwiftUI.View where C : SwiftUI.View, F : SwiftUI.View
   
 }
@@ -75,10 +98,13 @@ extension SwiftUI.Scene {
   }
 }
 public struct HiddenSceneModifier<S> where S : SwiftUI.Scene {
+  @available(iOS, unavailable)
   public func windowBackground(_ shape: some ShapeStyle) -> some SwiftUI.Scene
   
+  @available(iOS, unavailable)
   public func defaultVisibility(_ visibility: SwiftUI.Visibility) -> some SwiftUI.Scene
   
+  @available(iOS, unavailable)
   public func windowShouldClose(_ perform: @escaping () -> Swift.Bool) -> some SwiftUI.Scene
   
 }
@@ -92,6 +118,7 @@ public enum AppActions {
   public static func openWindow<Value>(value: Value) where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Hashable
   #if compiler(>=5.3) && $AsyncAwait
   @available(macOS 13.0, *)
+  @available(iOS, unavailable)
   public static func openDocument(at url: Foundation.URL) async throws
   #endif
   public static func openURL(_ url: Foundation.URL)
@@ -99,12 +126,14 @@ public enum AppActions {
   public static func openURL(_ url: Foundation.URL) async -> Swift.Bool
   #endif
 }
+@available(iOS, unavailable)
 public struct HiddenWindowStyle : SwiftUI.WindowStyle {
   public typealias _Body = Swift.Never
   public var floating: some SwiftUI.WindowStyle {
     get
   }
 }
+@available(iOS, unavailable)
 extension SwiftUI.WindowStyle where Self == SwiftUIHidden.HiddenWindowStyle {
   public static var hidden: SwiftUIHidden.HiddenWindowStyle {
     get
@@ -115,6 +144,7 @@ extension SwiftUI.EnvironmentValues {
     get
   }
 }
+@available(iOS, unavailable)
 public struct WithCurrentWindowAction {
   public func callAsFunction(_ window: (AppKit.NSWindow?) -> Swift.Void)
 }
@@ -122,6 +152,7 @@ public struct HiddenEnvironmentValues {
   public var openSettings: () -> Swift.Void {
     get
   }
+  @available(iOS, unavailable)
   public var withCurrentWindow: SwiftUIHidden.WithCurrentWindowAction {
     get
   }

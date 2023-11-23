@@ -18,7 +18,7 @@ public struct WithCurrentWindowAction {
     let action: SwiftUI.WithCurrentWindowAction
     
     #if os(macOS)
-    public func callAsFunction(_ window: (UIWindow?) -> Void) {
+    public func callAsFunction(_ window: (NSWindow?) -> Void) {
         action(window)
     }
     #endif
